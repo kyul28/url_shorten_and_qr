@@ -1,0 +1,20 @@
+[project]
+authors = [
+    {name = "Kyurhee Lee", email = "lkyurhee@gmail.com"},
+]
+license = {text = "MIT"}
+requires-python = "<4.0,>=3.12"
+dependencies = [
+    "fastapi<1.0.0,>=0.109.0",
+    "uvicorn<1.0,>=0.27",
+    "SQLAlchemy<2.0.0,>=1.4.39",
+    "python-dotenv<2.0,>=1.0",
+    "validators<1.0.0,>=0.20.0",
+    "pydantic-settings<3.0,>=2.1",
+]
+name = "shortenur"
+version = "1.1.0"
+description = "FastAPI driven URL shortener"
+
+[dependency-groups]
+dev = []
