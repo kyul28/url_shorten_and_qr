@@ -1,21 +1,21 @@
 # **URL Shortener API**
 
-## **📖 Project Overview**
+## **Project Overview**
 This is a simple and efficient URL shortener built using **FastAPI** and **SQLite**. The application allows users to shorten long URLs, track click counts, generate QR codes, and set expiration dates for links.
 
 ---
 
-## **🚀 Features**
-- 🔗 Shorten long URLs and generate unique short links.
-- 📊 Track click statistics for shortened URLs.
-- ⏳ Set expiration dates for short links.
-- 🖼 Generate QR codes for easy link sharing.
-- 🔐 Admin panel to view and delete shortened URLs.
-- ⚡ Fast and lightweight with FastAPI and SQLite.
+## **Features**
+- Shorten long URLs and generate unique short links.
+- Track click statistics for shortened URLs.
+- Set expiration dates for short links.
+- Generate QR codes for easy link sharing.
+- Admin panel to view and delete shortened URLs.
+- Fast and lightweight with FastAPI and SQLite.
 
 ---
 
-## **🛠 Technologies Used**
+## **Technologies Used**
 - **Backend:** FastAPI
 - **Database:** SQLite
 - **ORM:** SQLAlchemy
@@ -26,7 +26,7 @@ This is a simple and efficient URL shortener built using **FastAPI** and **SQLit
 
 ---
 
-## **📂 Project Structure**
+## **Project Structure**
 
 ```
 project_root/
@@ -44,7 +44,7 @@ project_root/
 
 ---
 
-## **💻 Installation & Setup**
+## **Installation & Setup**
 
 ### **1. Prerequisites**
 Make sure you have the following installed:
@@ -107,7 +107,7 @@ The application will run at:
 
 ---
 
-## **📡 API Endpoints**
+## **API Endpoints**
 
 ### **1. Shorten a URL**
 - **Endpoint:** `POST /url`
@@ -169,7 +169,7 @@ The application will run at:
 
 ---
 
-## **🧪 Running Tests**
+## **Running Tests**
 To run tests and verify functionality, use:
 
 ```bash
@@ -178,7 +178,7 @@ pytest
 
 ---
 
-## **🐳 Docker Setup (Optional)**
+## **Docker Setup (Optional)**
 To run the application using Docker:
 
 1. Build the Docker image:
@@ -193,12 +193,12 @@ To run the application using Docker:
 
 ---
 
-## **🔐 Security Considerations**
+## **Security Considerations**
 - Ensure sensitive information is stored securely using environment variables.
 - Implement API key authentication for production environments.
 - Regularly update dependencies to mitigate vulnerabilities.
 
 ---
 
-## **📜 License**
+## **License**
 This project is licensed under the MIT License. Feel free to use and modify it.
